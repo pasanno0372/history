@@ -1,0 +1,1000 @@
+   93  cat manage.py 
+   94  history
+   95  python -m django --version
+   96  ls
+   97  cd polls
+   98  ls
+   99  cat views.py 
+  100  cat > urls.py
+  101  ls
+  102  cat urls.py 
+  103  cd ..
+  104  ls
+  105  cd pro1/
+  106  ls
+  107  vi urls.py 
+  108  ls
+  109  cd ..
+  110  ls
+  111  cd polls/
+  112  ls
+  113  mkdir templates
+  114  ls
+  115  cd templates/
+  116  ls
+  117  mkdir polls
+  118  cat > index.html
+  119  history 
+  120  cd
+  121  git status
+  122  exit
+  123  python3 manage.py runserver
+  124  cd /sys/class/backlight/
+  125  cd intel_backlight
+  126  echo 380 > /sys/class/backlight//intel_backlight/brightness
+  127  sudo -i
+  128  cd
+  129  ls
+  130  cd project/
+  131  p
+  132  cd ls
+  133  ls
+  134  cd testproject/
+  135  cd pro1/
+  136  ls
+  137  cd p
+  138  cd polls/
+  139  ls
+  140  cd templates/
+  141  ls
+  142  cd ecom/
+  143  ls
+  144  cd ..
+  145  cd polls/
+  146  ls
+  147  cd
+  148  clear
+  149  cd
+  150  ls
+  151  mkdir my_library
+  152  cd my_library/
+  153  ls
+  154  django-admin startproject my_library
+  155  ls
+  156  cd my_library/
+  157  ls
+  158  cd
+  159  rm -rf my_library/
+  160  ls
+  161  clear
+  162  django-admin startproject my_library
+  163  cd my_library/
+  164  ls
+  165  python3 manage.py runserver
+  166  python3 manage.py startapp book_management
+  167  ls
+  168  cd book_management/
+  169  ls
+  170  cd ..
+  171  cd my_library/
+  172  ls
+  173  django-admin
+  174  django-admin --version
+  175  cd ..
+  176  cd book_management/static/
+  177  ls -a
+  178  ls
+  179  python3 manage.py runserver
+  180  python3 manage.py runserver --insecure
+  181  python3 manage.py runserver
+  182  python3 manage.py runserver --insecure
+  183  python3 manage.py runserver
+  184  python3 manage.py collectstatic
+  185  python3 manage.py runserver
+  186  python3 manage.py collectstatic
+  187  python3 manage.py runserver
+  188  shutdown
+  189  shutdown -f
+  190  cd testproject/
+  191  cd
+  192  cd project/
+  193  cd testproject/
+  194  cd env/
+  195  ls
+  196  cd
+  197  cd project/
+  198  cd testproject/
+  199  cd pro1/
+  200  python3 manage.py runserver
+  201  python3 manage.py makemigrations
+  202  python3 manage.py migrate
+  203  python3 manage.py runserver
+  204  ls
+  205  git add my_library/
+  206  cd my_library/
+  207  ls
+  208  git add *
+  209  cd
+  210  cd my_library/
+  211  git init
+  212  git status
+  213  ping google.com
+  214  ping bbc.com
+  215  pip3 install ipdb
+  216  cd /usr/bin/
+  217  ls
+  218  cd
+  219  history
+  220  cd Desktop/
+  221  ls
+  222  cd Desktop/
+  223  cat dataproject.csv 
+  224  awk
+  225  cat dataproject.csv 
+  226  awk --help
+  227  man awk
+  228  awk -F',' '{print $1 $13}'
+  229  awk -F',' '{print $1 $13}' dataproject.csv 
+  230  awk -F',' '{print $1 '*' $13}' dataproject.csv 
+  231  awk -F',' '{print $1 "*" $13}' dataproject.csv 
+  232  awk -F',' '{print $1 "*" $12}' dataproject.csv 
+  233  awk -F',' '{print $1 "*" $5}' dataproject.csv 
+  234  awk -F',' '{print $1 "*" $13}' dataproject.csv 
+  235  awk -F',' '{print $1 "*" $12}' dataproject.csv 
+  236  awk -F',' '{print $1 "*" $11}' dataproject.csv 
+  237  cat dataproject.csv 
+  238  awk -F',' '{print $1 "*" $13}' dataproject.csv 
+  239  vi script
+  240  awk -F',' -f script dataproject.csv 
+  241  vi script 
+  242  rm script 
+  243  sudo nano script
+  244  awk -F',' -f script dataproject.csv 
+  245  sudo nano script
+  246  awk -F',' -f script dataproject.csv 
+  247  man sort
+  248  column  dataproject.csv 
+  249  column -s','  dataproject.csv 
+  250  column -s',' -t  dataproject.csv 
+  251  column --help
+  252  man column
+  253  column -s',' -x  dataproject.csv 
+  254  sort -t',' -k3 dataproject.csv 
+  255  column -s',' -x  dataproject.csv | grep
+  256  man uniq
+  257  sort -t',' -k3 dataproject.csv 
+  258  sort -t',' -k3 -u\ dataproject.csv 
+  259  sort -t',' -k3 dataproject.csv 
+  260  man uniq
+  261  sort -t',' -k3 dataproject.csv
+  262  sort -t',' -k3 dataproject.csv | uniq  -cf3
+  263  sort -t',' -k3 dataproject.csv | uniq -cf2
+  264  sort -u -t',' -k3 dataproject.csv 
+  265  uniq
+  266  man uniq
+  267  sort -t',' -k3 dataproject.csv | uniq -cf2
+  268  cut -d',' -f3 | sort | uniq -c
+  269  cut -d',' -f3 | sort | uniq -c dataproject.csv 
+  270  cut -d',' -f3 dataproject.csv | sort | uniq -c 
+  271  cut -d',' -f3 dataproject.csv | sort | uniq -c | sort
+  272  sort -t',' -k3 dataproject.csv | uniq -cf2
+  273  sort -t',' -k3 dataproject.csv | uniq -cf3
+  274  cut -d',' -f3 dataproject.csv | sort | uniq -c | sort
+  275  sort -t',' -k3 dataproject.csv | uniq
+  276  awk -F',' {print $3} dataproject.csv 
+  277  awk -F',' '{print $3}' dataproject.csv 
+  278  awk -F',' '{print $3}' dataproject.csv | sort
+  279  awk -F',' '{print $3}' dataproject.csv | sort | uniq -c
+  280  awk -F',' '{print $3}' dataproject.csv | sort | uniq -c | sort
+  281  awk -F',' '{print $3 " " $13}' dataproject.csv | sort 
+  282  awk -F',' '{print $3 "," $13}' dataproject.csv | sort 
+  283  awk -F',' '{print $3}' dataproject.csv | sort | uniq -c | sort
+  284  awk -F',' '{print $3 ' ' $13}' dataproject.csv | sort 
+  285  awk -F',' '{print $3 " " $13}' dataproject.csv | sort 
+  286  awk -F',' '{print $3 "," $13}' dataproject.csv | sort 
+  287  awk -F',' '{print $3}' dataproject.csv | sort | uniq -c | sort
+  288  awk -F',' '{print $3 "," $13}' dataproject.csv | sort | uniq -c | sort
+  289  awk -F',' '{print $3 "," $13}' dataproject.csv | sort | uniq -c
+  290  vi dataproject.csv 
+  291  awk -F',' '{print $3 "," $13}' dataproject.csv | sort | uniq -c
+  292  awk -F',' '{print $3 "," $13}' dataproject.csv | sort | uniq -c | sort
+  293  awk -F',' '{print $3}' dataproject.csv | sort | uniq -c | sort
+  294  awk -F',' '{print $3 "," $13}' dataproject.csv | sort | uniq -c
+  295  awk -F',' '{print $3 "," $13}' dataproject.csv | sort | uniq -c | sort
+  296  awk -F'/' {print $1}
+  297  awk -F'/' '{print $1}' dataproject.csv 
+  298  awk -F'/' '{print $3}' dataproject.csv 
+  299  awk -F'/' '{print $3}' dataproject.csv | awk -F',' '{print $1}'
+  300  awk -F',' '{print $3 "," $13}' dataproject.csv | sort | uniq -c | sort
+  301  sudo nano script 
+  302  awk -F'/' '{print $3}' dataproject.csv | awk -F',' '{print $1+543}'
+  303  awk -F'/' '{print 0}' dataproject.csv | awk -F',' '{print $1+543}'
+  304  awk -F'/' '{print $0}' dataproject.csv | awk -F',' '{print $1+543}'
+  305  awk -F'/' '{$3}' dataproject.csv | awk -F',' '{print $1+543}'
+  306  awk -F'/' '{print $3}' dataproject.csv | awk -F',' '{print $1+543}'
+  307  tr '/' ',' dataproject.csv 
+  308  tr -s '/' ',' dataproject.csv 
+  309  cat dataproject.csv | tr '/' ','
+  310  cat dataproject.csv | tr '/' ',' | awk -F '{$1=""; print $0}'
+  311  awk -F'/' '{print $1 $13}' dataproject.csv 
+  312  awk -F'/' '{print $1}' dataproject.csv 
+  313  awk -F',' '{print $1}' dataproject.csv 
+  314  awk -F',' '{print $1 $13}' dataproject.csv 
+  315  awk -F',' '{print $13 $13}' dataproject.csv 
+  316  awk -F',' '{print $13 $1}' dataproject.csv 
+  317  awk -F',' '{print $13}' dataproject.csv 
+  318  awk -F',' '{print $13 $3}' dataproject.csv 
+  319  awk -F',' '{print $13 " " $3}' dataproject.csv 
+  320  awk -F',' '{print $13 " " $3}' dataproject.csv | sort
+  321  awk -F',' '{print $13 " " $3}' dataproject.csv
+  322  awk -F',' '{print $1}' dataproject.csv 
+  323  awk -F',' '{print $1}' dataproject.csv > savedate
+  324  cut -d',' -f1 dataproject.csv 
+  325  paste -d',' savedate dataproject.csv 
+  326  awk -F',' '{print $1,$2}' dataproject.csv > savedate
+  327  cat savedate 
+  328  rm savedate 
+  329  awk -F',' '{print $2","$3","$4","$5","$6","$7","$8","$9","$10","$11","$12","$13}' dataproject.csv > savedate
+  330  cat savedate 
+  331  awk -F',' '{print $1}' dataproject.csv 
+  332  awk -F',' '{print $1}' dataproject.csv | awk -F'/' '{print $3}'
+  333  cut -d',' -f1 dataproject.csv 
+  334  cut -d',' -f1 dataproject.csv | awk -F'/' '{print $3}'
+  335  cut -d',' -f1 dataproject.csv | awk -F'/' '{print $3+543}'
+  336  cut -d',' -f1 dataproject.csv | awk -F'/' '{print $3+543}' > savedate
+  337  awk -F',' '{print $}'
+  338  awk -F',' '{print $2","$3","$4","$5","$6","$7","$8","$9","$10","$11","$12","$13}' dataproject.csv > savedate
+  339  awk -F',' '{print $2","$3","$4","$5","$6","$7","$8","$9","$10","$11","$12","$13}' dataproject.csv > savenodate
+  340  cut -d',' -f1 dataproject.csv | awk -F'/' '{print $3+543}' > savedate
+  341  cat save
+  342  cat savedate 
+  343  cat savenodate 
+  344  paste -d',' savedate savenodate 
+  345  cut -d',' -f1 dataproject.csv | awk -F'/' '{print $3+543}' > savedate
+  346  cat savedate 
+  347  cut -d',' -f1 dataproject.csv | awk -F'/' '{print $1"/"$2"/"$3+543}' > savedate
+  348  cat savedate 
+  349  paste -d',' savedate savenodate 
+  350  awk -F',' '{print $1}' dataproject.csv | awk -F'/' '{print $1"/"$2"/"$3+543}' > savedate
+  351  cat savedate 
+  352  cat dataproject.csv 
+  353  vi dataproject.csv 
+  354  sed '/^ /***/g' dataproject.csv 
+  355  sed -e '/^ /***/g' dataproject.csv 
+  356  sed '/^ /___/g' dataproject.csv 
+  357  sed '/^ +/****/g' dataproject.csv 
+  358  vi dataproject.csv 
+  359  sed 's/^ /****/g' dataproject.csv 
+  360  sed 's/^ +/****/g' dataproject.csv 
+  361  sed 's/^ /****/g' dataproject.csv 
+  362  vi dataproject.csv 
+  363  nano dataproject.csv 
+  364  sudo nano dataproject.csv 
+  365  ls
+  366  sudo nano dataproject.csv 
+  367  sed 's/,{2}/****/g' dataproject.csv 
+  368  sed 's/,,/****/g' dataproject.csv 
+  369  sed 's/,{2}/****/g' dataproject.csv 
+  370  sed 's/,{1}/****/g' dataproject.csv 
+  371  sed 's/,\{2\}/****/g' dataproject.csv 
+  372  sed ',\{2\}/s/****/g' dataproject.csv 
+  373  sed ',\{2\}/s//****/g' dataproject.csv 
+  374  sed ',\{2\}/s/^.*$/****&/g' dataproject.csv 
+  375  sed '\,\{2\}/s/^.*$/****&/g' dataproject.csv 
+  376  sed ',\{2\}/s/^.*$/****&/' dataproject.csv 
+  377  sed '^,\{2\}/s/^.*$/****&/g' dataproject.csv 
+  378  sed '^.*,\{2\}/s/^.*$/****&/g' dataproject.csv 
+  379  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv 
+  380  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^*'
+  381  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^\**'
+  382  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^**'
+  383  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^*'
+  384  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^*+'
+  385  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^\*+'
+  386  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^*'
+  387  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^**'
+  388  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^\**'
+  389  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^"*"'
+  390  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^"*"*'
+  391  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^*'
+  392  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^**'
+  393  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^*\**'
+  394  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^\**'
+  395  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^*\**'
+  396  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^*\*'
+  397  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^*\**'
+  398  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^*'
+  399  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^**'
+  400  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^*\**'
+  401  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^*\**' >> ErrorData
+  402  cat ErrorData 
+  403  cat dataproject.csv 
+  404  sudo nano dataproject.csv 
+  405  sed '/,\{2\}/s/^.*$/****&/g' dataproject.csv | grep '^*\**'
+  406  cat dataproject.csv 
+  407  awk -F',' '{print $3}' dataproject.csv | sort | uniq -c | sort
+  408  awk -F',' '{print $3 "," $13}' dataproject.csv | sort | uniq -c | sort
+  409  awk -F',' '{print $3 "," $13}' dataproject.csv | sort | uniq -c
+  410  awk -F',' '{print $3 "," $13}' dataproject.csv | sort | uniq -c | grep 'x'
+  411  cat dataproject.csv 
+  412  awk -F',' '{print $3 "," $13}' dataproject.csv | sort | uniq -c | grep 'x'
+  413  awk -F',' '{print $3 "," $13}' dataproject.csv | sort -r| uniq -c | grep 'x' | head -5
+  414  awk -F',' '{print $3 "," $13}' dataproject.csv | sort | uniq -c | grep 'x'
+  415  awk -F',' '{print $3 "," $13}' dataproject.csv | sort | uniq -c | grep 'No'
+  416  awk -F',' '{print $3 "," $13}' dataproject.csv | sort | uniq -c | grep 'No$'
+  417  cat dataproject.csv 
+  418  awk -F',' '{print $3 "," $13}' dataproject.csv | sort | uniq -c | grep 'No$'
+  419  sort -t',' -k3 dataproject.csv 
+  420  awk -F',' '{print $3 "," $13}' dataproject.csv | sort | uniq -c | grep 'x'
+  421  shuwdown -h now
+  422  shutdown -h now
+  423  python3 manage.py runserver
+  424  pip install djangorestframework
+  425  pip install markdown
+  426  สห
+  427  ls
+  428  ls =a
+  429  ls -a
+  430  ls
+  431  mkdir tutorial
+  432  cd tutorial/
+  433  virtualenv env
+  434  ls
+  435  pip install djangorestframework
+  436  ls
+  437  pip install markdown
+  438  pip install django-filter
+  439  git clone git@github.com:encode/django-rest-framework.git
+  440  ls
+  441  cd django-rest-framework/
+  442  ls
+  443  grep 'setting.py'
+  444  grep ls 'setting.py'
+  445  pip install django
+  446  ls
+  447  cd ..
+  448  ls
+  449  rm -r *
+  450  ls
+  451  rm -r django-rest-framework/
+  452  ls
+  453  pip install django
+  454  ls
+  455  pip install djangorestframework
+  456  ls
+  457  s
+  458  ls
+  459  cd
+  460  rm -r tutorial/
+  461  ls
+  462  mkdir tutorialrest
+  463  cd tutorialrest/
+  464  pip install django
+  465  ls
+  466  pip install djangorestframework
+  467  ls
+  468  sls
+  469  sl
+  470  ls -a
+  471  pip uninstall djangorestframework
+  472  pip install djangorestframework
+  473  ls
+  474  django-admin.py startproject tutorial
+  475  ls
+  476  cd tutorial/
+  477  ls
+  478  django-admin.py startapp quickstart
+  479  ls
+  480  cd quickstart/
+  481  ls
+  482  cd ..
+  483  cd tutorial/
+  484  ls
+  485  cd ..
+  486  cd
+  487  ls
+  488  cd tutorialrest/
+  489  ls
+  490  cd tutorial/
+  491  ls
+  492  git clone git@github.com:encode/django-rest-framework.git
+  493  ls
+  494  cd django-rest-framework/
+  495  ls
+  496  cd rest_framework/
+  497  ls
+  498  ls | more
+  499  cd .
+  500  cd ..
+  501  ls
+  502  cd ..
+  503  ls
+  504  cd quickstart/
+  505  ls
+  506  cd ..
+  507  cd tutorial/
+  508  ls
+  509  cd ..
+  510  ls
+  511  history
+  512  python manage.py migrate
+  513  python3 manage.py migrate
+  514  python3 manage.py createsuperuser
+  515  ls
+  516  cd tutorial/
+  517  ls
+  518  vi settings.py 
+  519  nano settings.py 
+  520  ls
+  521  nano urls.py 
+  522  ls
+  523  cd ..
+  524  python3 manage.py runserver\
+  525  python3 manage.py runserver
+  526  cd tutorial/
+  527  ls
+  528  cd se
+  529  nano settings.py 
+  530  cd ..
+  531  cd quickstart/
+  532  nano serializers.py
+  533  ls
+  534  nano views.py 
+  535  cd ..
+  536  ls
+  537  cd tutorial/
+  538  ls
+  539  nano urls.py 
+  540  ls
+  541  nano settings.py 
+  542  cd ..
+  543  python3 manage.py runserver
+  544  python3.5 manage.py runserver
+  545  cd tutorial/
+  546  ls
+  547  nano settings.py 
+  548  shutdown -h now
+  549  pip3 list
+  550  pip3 install djangorestramework
+  551  pip3 install djangorestFramework
+  552  pip3 list
+  553  python3 manage.py runserver
+  554  sudo apt-get install     apt-transport-https     ca-certificates     curl     software-properties-common
+  555  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  556  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  557     $(lsb_release -cs) \
+  558  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  559  $(xenial) \
+  560  stable
+  561  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  562  xenial stable
+  563  "
+  564  sudo apt-get update
+  565  sudo apt-get install docker-ce
+  566  docker
+  567  docker ps
+  568  sudo docker ps
+  569  sudo usermod -aG docker $USER
+  570  docker run --name some-nginx -v /some/content:/usr/share/nginx/html:ro -d nginx
+  571  docker run --name some-nginx -d some-content-nginx
+  572  docker run --name some-nginx -d -p 8080:80 some-content-nginx
+  573  cd /usr/share
+  574  ls
+  575  ls | grep 'nginx'
+  576  cd
+  577  docker run --name some-nginx -v /some/content:/usr/share/nginx/html:ro -d nginx
+  578  docker run --name some-nginx -d -p 8080:80 some-content-nginx
+  579  docker run hello-world
+  580  docker image ls
+  581  docker container
+  582  docker container ls --all
+  583  docker info
+  584  docker run hello-world
+  585  docker run nginx
+  586  docker build -t some-content-nginx
+  587  FROM nginx
+  588  pwd
+  589  docker ps
+  590  docker run --name some-nginx -d -p 8080:80 nginx
+  591  docker rm -f some-nginx 
+  592  docke ps
+  593  docker ps
+  594  docker ps -a
+  595  docker rm -f $(docker ps -aq)
+  596  docker ps -a
+  597  docker run --name some-nginx -p 8080:80 -d nginx
+  598  docker ps
+  599  jobs
+  600  job
+  601  ps
+  602  docker ps
+  603  docker rm -f some-nginx 
+  604  docker ps
+  605  docker run --name some-nginx -d nginx
+  606  docker ps
+  607  docker rm -f some-nginx 
+  608  docker run --name some-nginx -p 8080 -d nginx
+  609  docker ps
+  610  docker rm -f some-nginx 
+  611  docker run --name some-nginx -p 8080:80 -d nginx
+  612  docker ps
+  613  docker exec -it some-nginx bash
+  614  docker ps
+  615  docker rm -f some-nginx 
+  616  docker ps
+  617  docker run --name some-nginx -p 8080:80 -v /home/link/html:/usr/share/nginx/html -d nginx
+  618  docker ps
+  619  sudo vim /etc/hosts
+  620  sudo apt-get install vim
+  621  sudo vim /etc/hosts
+  622  ping test.com
+  623  docker exec -ti some-nginx bash
+  624  docker rm -f $(docker ps -aq)
+  625  docker run --name some-nginx -p 8080:80 -v /home/link/html:/usr/share/nginx/html -v /home/link/nginx:/etc/nginx/conf.d -d nginx
+  626  docker exec -it some-nginx bash
+  627  cd nginx/
+  628  cat test.conf 
+  629  docker exec -ti some-nginx bash
+  630  history
+  631  docker exec -it some-nginx 
+  632  docker ps
+  633  docker exec -it some-nginx bash
+  634  sudo vim /etc/hosts
+  635  ping
+  636  ping test.com
+  637  docker exec -it some-nginx bash
+  638  sudo vim /etc/hosts
+  639  docker restart some-nginx 
+  640  ls
+  641  mkdir dockerdjango
+  642  cd dockerdjango/
+  643  sudo add-apt-repository ppa:gnome-terminator
+  644  sudo apt-get install terminator
+  645  history
+  646  history 
+  647  docker exec -it no-postgres bash
+  648  docker ps
+  649  docker ps -a
+  650  docker logs
+  651  docker logs no
+  652  docker 
+  653  docker ps
+  654  docker start no
+  655  docker ps
+  656  docker logs no
+  657  ls
+  658  cd dockerdjango/
+  659  ls
+  660  cd mydocker/
+  661  ls
+  662  cat Dockerfile 
+  663  vim Dockerfile 
+  664  docker rm -f no
+  665  docker build --tag no .
+  666  docker run --name no -v /home/link/dockerdjango/mydocker:/usr/src/app -p 8000:8000 -d no
+  667  docker ps -a
+  668  docker logs no
+  669  docker exec -it no bash
+  670  docker ps -a
+  671  docker rm -f no
+  672  docker run --name no -v /home/link/dockerdjango/mydocker:/usr/src/app -p 8000:8000 --link no-postgres:no-postgres -d no
+  673  docker exec no cat /etc/hosts
+  674  docker exec -it no bash
+  675  exit
+  676  cd dockerdjango/
+  677  cd mydocker/
+  678  ls
+  679  vim dockerFile
+  680  docker image
+  681  docker images
+  682  docker build --tag no_jan .
+  683  docker ps -a
+  684  docker ps
+  685  docker rm -f some-nginx 
+  686  docker ps
+  687  docker run --name notest -v /home/link/dockerdjango/mydocker/:/usr/src/app no_jan
+  688  docker run --name notest -v /home/link/dockerdjango/mydocker:/usr/src/app no_jan
+  689  docker run --name no_jan -v /home/link/dockerdjango/mydocker:/usr/src/app no_jan
+  690  docker run --name no -v /home/link/dockerdjango/mydocker:/usr/src/app no_jan
+  691  docker ps
+  692  docker ps -a
+  693  docker rm -f $(docker ps -a)
+  694  docker rm -f $(docker ps -aq)
+  695  docker ps -a
+  696  docker ps
+  697  docker run --name no -v /home/link/dockerdjango/mydocker:/usr/src/app no_jan
+  698  docker ps -a
+  699  docker rm -f $(docker ps -aq)
+  700  docker ps -a
+  701  docker images 
+  702  docker rmi hello-world:latest 
+  703  docker images 
+  704  docker rmi no_jan:latest 
+  705  ls
+  706  docker images 
+  707  docker images
+  708  docker build --tag no_jan
+  709  docker images
+  710  docker build --tag no_jan .
+  711  docker ps
+  712  docker ps -a
+  713  docker run --name no-postgres -e POSTGRES_PASSWORD=mysecretpassword -p 5432:5432 -d postgres:9.6
+  714  docker ps
+  715  docker start no
+  716  docker start no_jan
+  717  docker ps -a
+  718  docker run --name no -v /home/link/dockerdjango/mydocker:/usr/src/app -p 8000:8000 no
+  719  docker ps
+  720  docker ps -a
+  721  docker images
+  722  docker rm -f no_jan
+  723  docker rmi no_jan:latest 
+  724  docker images
+  725  docker run --name no -v /home/link/dockerdjango/mydocker:/usr/src/app -p 8000:8000 no
+  726  docker ps -a\
+  727  docker ps -a
+  728  docker run --name no -v /home/link/dockerdjango/mydocker:/usr/src/app -p 8000:8000 -d no
+  729  docker ps -a
+  730  docker images
+  731  docker ps -a
+  732  docker images
+  733  docker ps -a
+  734  docker images
+  735  docker run --name no -v /home/link/dockerdjango/mydocker:/usr/src/app -p 8000:8000 -d no
+  736  docker ps -a
+  737  docker images
+  738  docker ps -a
+  739  docker images
+  740  docker run --name no -v /home/link/dockerdjango/mydocker:/usr/src/app -p 8000:8000 -d no
+  741  docker ps
+  742  docker build --tag no .
+  743  docker run --name no -v /home/link/dockerdjango/mydocker:/usr/src/app -p 8000:8000 -d no
+  744  docker ps
+  745  docker ps -a
+  746  docker start no
+  747  docker ps -a
+  748  exit
+  749  shutdown -h now
+  750  history > historylinxmint.txt
+  751  cat historylinxmint.txt 
+  752  vi historylinxmint.txt 
+  753  docker ps
+  754  docker ps -a
+  755  docker images 
+  756  history 
+  757  docker images 
+  758  docker ps -a
+  759  docker exec -it no bash\
+  760  history 
+  761  docker exec no cat /etc/hosts
+  762  ls
+  763  mkdir homework
+  764  cd h
+  765  cd homework/
+  766  cd
+  767  cd dockerdjango/
+  768  ls
+  769  cd mydocker/
+  770  ls
+  771  cd
+  772  cd homework/
+  773  lls
+  774  ls
+  775  docker build --tag homedoc .
+  776  ls
+  777  docker
+  778  docker ps
+  779  ls
+  780  vim Dockerfile
+  781  ls
+  782  cat Dockerfile 
+  783  docker build --tag homedoc .
+  784  ls
+  785  ls -a
+  786  docker ps
+  787  docker ps -a
+  788  docker exec -it homedoc bash
+  789  docker run --name home -v ~/homework:/usr/src/app -p 8000:8000 -d home
+  790  docker ps -a
+  791  docker images
+  792  docker exec -it homedoc bash
+  793  docker rm -rf homedoc
+  794  docker rm -f homedoc
+  795  docker rmi homedoc:latest 
+  796  docker images
+  797  docker ps -a
+  798  docker build --tag homedoc .
+  799  docker images
+  800  docker exec -it homedoc bash
+  801  cat /etc/hosts
+  802  docker exec no cat /etc/hosts
+  803  docker build --tag homedoc .
+  804  docker run --name some-nginx -p 8080:80 -v /home/link/html:/usr/share/nginx/html -v /home/link/nginx:/etc/nginx/conf.d -d nginx
+  805  docker ps
+  806  docker ps -a
+  807  docker exec -it some-nginx bash
+  808  docker exec -it cat /etc/hosts no
+  809  docker exec -it no cat /etc/hosts 
+  810  cat /etc/hosts
+  811  docker ps
+  812  docker ps -a
+  813  docker rm -f some-nginx 
+  814  docker ps -a
+  815  docker run --name some-nginx -p 8080:80 -v /home/link/html:/usr/share/nginx/html -v /home/link/nginx:/etc/nginx/conf.d -d nginx
+  816  docker ps -a
+  817  docker images
+  818  docker exec -it some-nginx bash
+  819  docker rm -f some-nginx 
+  820  docker images
+  821  docker rmi some-nginx 
+  822  docker images
+  823  docker ps -a
+  824  docker run --name some-nginx -p 8079:80 -v /home/link/html:/usr/share/nginx/html -v /home/link/nginx:/etc/nginx/conf.d -d nginx
+  825  docker rm -f some-nginx 
+  826  docker rmi some-nginx 
+  827  cat Dockerfile 
+  828  docker images
+  829  docker rmi homedoc:latest 
+  830  docker images
+  831  ls
+  832  cat Dockerfile 
+  833  vi Dockerfile 
+  834  docker build --tag homedoc .
+  835  docker images 
+  836  docker ps -a
+  837  docker run --name homedoc -v ~/homework:/usr/src/app -p 8090 -d homedoc
+  838  docker images
+  839  docker ps -a
+  840  docker rm -f homedoc 
+  841  docker run --name homedoc -v ~/homework:/usr/src/app -p 8090:8090 -d homedoc
+  842  docker exec -it homedoc bash
+  843  docker images
+  844  docker ps -a
+  845  docker rm -f homedoc 
+  846  docker rmi homedoc 
+  847  docker image
+  848  docker images
+  849  docker --tag homedoc .
+  850  docker build --tag homedoc .
+  851  docker rmi homedoc 
+  852  docker images
+  853  vim Dockerfile 
+  854  docker build --tag homedoc .
+  855  docker images
+  856  docker run --name homedoc -v ~/homework:/usr/src/app -p 8090:8090 -d homedoc
+  857  docker ps -a
+  858  cat /etc/hosts
+  859  docker exec -it homedoc bash
+  860  docker images
+  861  docker exec -it cat /etc/hosts
+  862  docker exec -it no cat /etc/hosts
+  863  docker images
+  864  docker images 
+  865  docker ps -a
+  866  docker rm -f homedoc 
+  867  docker run --name homedoc -v ~/homework:/usr/src/app -p 8090:8090 --link tdoc:no-postgres -d homedoc
+  868  docker run --name homedoc -v ~/homework:/usr/src/app -p 8090:8090 --link homedoc:no-postgres -d homedoc
+  869  docker run --name homedoc -v ~/homework:/usr/src/app -p 8090:8090 --link home:no-postgres -d homedoc
+  870  docker ps -a
+  871  docker images
+  872  docker run --name homedoc -v ~/homework:/usr/src/app -p 8090:8090 --link no-postgres:no-postgres -d homedoc
+  873  docker ps -a
+  874  docker exec -it no bash
+  875  docker ps
+  876  docker ps -a
+  877  docker start no
+  878  docker ps -a
+  879  docker logs no
+  880  docker restart no
+  881  history 
+  882  docker restart no
+  883  docker ps -a
+  884  docker restart no-postgres 
+  885  docker ps -a
+  886  docker restart no
+  887  docker ps -a
+  888  docker ps --a
+  889  docker ps -a
+  890  history 
+  891  docker run --name some-nginx -v ~/zipangular:/usr/share/nginx/html -p 8080:80 -d nginx
+  892  docker exec -it some-nginx bash
+  893  docker ps -a
+  894  docker rm -f some-nginx 
+  895  docker run --name some-nginx -v ~/zipangular:/usr/share/nginx/html -v ~/nginx:/etc/nginx/conf.d -p 8080:80 -d nginx
+  896  docker exec -ti ls & cd /etc/nginx/conf.d
+  897  docker exec -ti some-nginx bash
+  898  docker ps -a
+  899  docker start no-postgres 
+  900  docker ps -a
+  901  docker start no
+  902  ifconfig
+  903  cat /etc/hosts
+  904  ls
+  905  cd project/
+  906  ls
+  907  cd
+  908  cd my_library/
+  909  cd book_management/
+  910  ls
+  911  cd ..
+  912  cd my_library/
+  913  ls
+  914  cd ..
+  915  ls
+  916  python3 manage.py runserver
+  917  docker ps -a
+  918  docker stop no
+  919  docker ps -a
+  920  python3 manage.py runserver
+  921  cd /
+  922  ls
+  923  cd
+  924  ls
+  925  cd zipangular/
+  926  ls -a
+  927  ls -l
+  928  docker images
+  929  docker ps -a
+  930  docker exec -it nginx bash
+  931  docker run --name some-nginx -d -p 8080:80 some-content-nginx
+  932  history 
+  933  cd
+  934  pwd
+  935  curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+  936  nvm
+  937  -v nvm
+  938  nvm ls
+  939  nvm ls-remote
+  940  nvm
+  941  nvm install v6.14.2
+  942  nvm ls
+  943  npm install -g yo gulp bower
+  944  npm install -g generator-gulp-angular
+  945  ls
+  946  ls -a
+  947  mkdir mynodejs && cd $_
+  948  ls
+  949  yo gulp-angular
+  950  glup serve
+  951  gulp serve
+  952  history 
+  953  mkdir mynodejs
+  954  cd my
+  955  cd mynodejs/
+  956  npm install -g yo gulp bower
+  957  npm install -g generator-gulp-angular
+  958  ls
+  959  ls -a
+  960  yo gulp-angular
+  961  history 
+  962  gulp serve
+  963  ls
+  964  dockerdjango/
+  965  ls
+  966  cd dockerdjango/
+  967  ls
+  968  cd mydocker/
+  969  ls
+  970  pip3 install django-cors-headers
+  971  docker ps -a
+  972  ls
+  973  cd m
+  974  cd my_library/
+  975  ls
+  976  vim settings.py 
+  977  docker restart no-postgres 
+  978  docker start no 
+  979  docker ps -a
+  980  vim settings.py 
+  981  docker exec -it no bash
+  982  docker ps -a
+  983  docker exec -it no bash
+  984  docker logs no
+  985  docker start no 
+  986  docker restart no 
+  987  docker ps -a
+  988  docker restart no-postgres 
+  989  docker logs no
+  990  ls
+  991  cd ..
+  992  ls
+  993  python3 manage.py runserver
+  994  docker ps -a
+  995  docker exec -it no bash
+  996  docker restart no
+  997  docker exec -it no bash
+  998  cd
+  999  ls
+ 1000  cd mynodejs/
+ 1001  ls
+ 1002  cd src/
+ 1003  ls
+ 1004  docker restart no
+ 1005  history 
+ 1006  shutdown -h now
+ 1007  man shutdown
+ 1008  shutdown -r now
+ 1009  history 
+ 1010  gulp serve
+ 1011  ls
+ 1012  cd dockerdjango/
+ 1013  ls
+ 1014  cd 
+ 1015  cd dockerdjango/
+ 1016  cd mydocker/
+ 1017  ls
+ 1018  cd
+ 1019  nvm
+ 1020  nvm -ls -a
+ 1021  nvm -ls
+ 1022  node -v
+ 1023  nvm ls
+ 1024  ls
+ 1025  cd mynodejs/
+ 1026  ls
+ 1027  cd src/
+ 1028  ls
+ 1029  cat index.html 
+ 1030  cd ..
+ 1031  ls
+ 1032  gulp sserve
+ 1033  yo gulp-angular
+ 1034  jobs
+ 1035  ps
+ 1036  gulp serve
+ 1037  cd
+ 1038  gulp serve
+ 1039  cd mynodejs/
+ 1040  gulp serve
+ 1041  docker ps
+ 1042  docker ps -a
+ 1043  docker start no-postgres 
+ 1044  docker start no
+ 1045  docker ps -a
+ 1046  clear
+ 1047  cd mynodejs/
+ 1048  ls
+ 1049  cd src/
+ 1050  ls
+ 1051  docker ps -a
+ 1052  docker pause no
+ 1053  docker ps -a
+ 1054  shutdown -h now
+ 1055  ls
+ 1056  cd mynodejs/
+ 1057  ls
+ 1058  cd src/
+ 1059  ls
+ 1060  cd app/
+ 1061  ls
+ 1062  cd
+ 1063  cd mynodejs/
+ 1064  ls
+ 1065  cd
+ 1066  cd mynodejs/
+ 1067  ls
+ 1068  git clone git@github.com:pasanno0372/angular.git
+ 1069  ls
+ 1070  cd angular/
+ 1071  ls
+ 1072  cd
+ 1073  cd src
+ 1074  cd mynodejs/
+ 1075  cd src/
+ 1076  ls
+ 1077  cd ..
+ 1078  cp ./src/ angular/
+ 1079  cp ./src angular/
+ 1080  cp src angular/
+ 1081  cd angular/
+ 1082  git add .
+ 1083  git status
+ 1084  git commit
+ 1085  git commit -m 'angular'
+ 1086  git push origin master
+ 1087  cd ~/.ssh
+ 1088  ls
+ 1089  cat id_rsa.pub 
+ 1090  cd
+ 1091  ls
+ 1092  history > hitnew.txt
